@@ -1,0 +1,52 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    background-image: url('goku.gif');
+    background-size: cover; /* Adjust as needed */
+    background-repeat: no-repeat; /* Prevent image repetition */
+    background-attachment: fixed; /* Fixed background, doesn't scroll with content */
+}
+
+table{
+    width: 200px; /* Adjust as needed */
+    height: 200px; /* Adjust as needed */
+    text-align: center;
+    line-height: 50px;
+    border: 1px solid black; /* Let's add border in our TABLE */
+    background-color: rgba(52, 152, 219, 0.5); /* Adjust as needed */
+    margin-left: auto; /* We added marging that is set to auto to make in center of the screen */
+    margin-right: auto;
+}
+
+input[type=button]{
+    width: 100%;
+    padding:20px 40px; /* We set 20px top & botton and 40px for left and right */
+    background-color: rgba(52, 152, 219, 0.5); /* We add bg color to the buttons */
+    color: white; /* Text color is always Black */
+    font-size: 24px; /* Text size always 24 */
+    font-weight: bold; /* We will set all the text into bold */
+    border:none; /* We remove the border */
+    border-radius: 5px; /* We add a radius in the button for designing */
+}
+
+#result {
+    color: black;
+}
+
+tr :hover{
+    cursor: pointer;
+    background: #c0c0c0;
+    color: black;
+    transition: background-color 0.8s; /* Add a smooth transition effect */
+    border-radius: 5px;
+}
+
+input{
+    width:85%; /* We add width in input to fix the colspan inside the box */
+    padding: 20px 30px;
+    font-size: 24px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
